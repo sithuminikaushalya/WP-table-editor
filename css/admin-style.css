@@ -1,0 +1,58 @@
+/* admin-style.css */
+.wrap {
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #0073aa;
+    padding-bottom: 10px;
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+table th {
+    background-color: #f1f1f1;
+}
+
+form p {
+    margin-bottom: 10px;
+}
+
+form label {
+    display: inline-block;
+    width: 120px;
+}
+
+form input[type="text"] {
+    width: calc(100% - 130px);
+    padding: 5px;
+}
+
+form input[type="submit"] {
+    background-color: #0073aa;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #005177;
+}
+
+form input[type="hidden"] {
+    display: none;
+}
